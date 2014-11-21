@@ -16,6 +16,6 @@ run_analysis.R does the following steps:
 "UCI HAR Dataset/train/y_train.txt"
 2. simplifies the column names and number of columns
 3. creates mean values across subjects and activities
-4. creates the a tidy data set in the file: tidy-UCI-HAR.txt
+4. creates the a tidy data set in the file: tidy-UCI-HAR.csv
 
 See CodeBook.md for a detailed description of data transformations and description of the final data set.

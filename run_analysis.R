@@ -63,4 +63,4 @@ summary <- summarise_each(data, funs(mean))
 
 summary <- arrange(summary, subject, activity)
 
-write.table(summary, "tidy-UCI-HAR.txt", sep = ",")
+write.table(summary, "tidy-UCI-HAR.csv", sep = ",")

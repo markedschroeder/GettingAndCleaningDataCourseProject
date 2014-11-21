@@ -1,5 +1,5 @@
 #README
-###By: Mark Schroeder's
+###By: Mark Schroeder
 ###Purpose: Getting and Cleaning Data Course Project
 
 The analysis has a single script called run_analysis.R, which must be run in a directory containing the unzipped version of the archive getdata-projectfiles-UCI HAR Dataset.zip.  This file can be downloaded from:

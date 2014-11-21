@@ -29,7 +29,7 @@ In the following the base directory where the data files were unzipped is referr
 10. This resulted in a data set of 180 observations composed of 30 subjects doing 6 activities.
 
 ###Data Explanation
-The columns in the final data set are a subset of the "A 561-feature vector with time and frequency domain variables."  These variables are best described in ./UCI HAR Dataset/feature_info.txt.  They are derived from transformations of the gyroscope and accelerometer of the Samsung Galaxy SII.  The directions x, y, and z are relative to the phone.  The following descriptions are to the best understanding I had of the data.  Refer back to the original description in the feature_info.txt and README.txt files for any necessary clarification.  The final tidy data set is in the file tidy-UCI-HAR.csv.
+The columns in the final data set are a subset of the "A 561-feature vector with time and frequency domain variables."  These variables are best described in ./UCI HAR Dataset/feature_info.txt.  They are derived from transformations of the gyroscope and accelerometer of the Samsung Galaxy SII.  The directions x, y, and z are relative to the phone.  The following descriptions are to the best understanding I had of the data.  Refer back to the original description in the feature_info.txt and README.txt files for any necessary clarification.  No units were given so the units are unknown for all variable fields.  The final tidy data set is in the file tidy-UCI-HAR.csv.
 
 #####Column names:
 1.  subject: Unique numerical identifier from 1-30 for each subject tested

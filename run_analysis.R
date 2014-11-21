@@ -1,6 +1,6 @@
 library(dplyr)
 
-setwd("~/Google Drive/dataScience/GettingAndCleaningData/CourseProject")
+setwd("~/Google Drive/dataScience/GettingAndCleaningData/GettingAndCleaningDataCourseProject")
 
 featuresFile <- "UCI HAR Dataset/features.txt"
 features <- read.table(featuresFile,header=FALSE)
@@ -63,4 +63,4 @@ summary <- summarise_each(data, funs(mean))
 
 summary <- arrange(summary, subject, activity)
 
-write.table(summary, "tidy-UCI-HAR.csv", sep = ",")
+write.table(summary, "tidy-UCI-HAR.csv", sep = ",", row.name=FALSE)
